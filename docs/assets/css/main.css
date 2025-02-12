@@ -2507,5 +2507,15 @@ ul .li-skills {
 }
 
 .introtext {
-	font-size: 1.5em;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 736px) {
+
+	.introtext {
+		font-size: 1.2em;
+		font-weight: bold;
+	}
+
 }
